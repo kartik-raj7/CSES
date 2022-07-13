@@ -1,0 +1,1 @@
+{"name":"Local: Distinct_Num","url":"c:\\Users\\karti\\Desktop\\CSES\\Distinct_Num.cpp","tests":[{"id":1657636681305,"input":"5\n2 3 2 2 3","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\CSES\\Distinct_Num.cpp","group":"local","local":true}
