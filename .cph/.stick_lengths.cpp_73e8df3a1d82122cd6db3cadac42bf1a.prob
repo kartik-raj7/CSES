@@ -1,0 +1,1 @@
+{"name":"Local: stick_lengths","url":"c:\\Users\\karti\\Desktop\\CSES\\stick_lengths.cpp","tests":[{"id":1657804293643,"input":"5\n2 3 1 5 2\n","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\CSES\\stick_lengths.cpp","group":"local","local":true}
