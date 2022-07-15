@@ -1,0 +1,1 @@
+{"name":"Local: Playlist","url":"c:\\Users\\karti\\Desktop\\CSES\\Playlist.cpp","tests":[{"id":1657890867134,"input":"8\n1 2 1 3 2 7 4 2","output":"5"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\CSES\\Playlist.cpp","group":"local","local":true}
