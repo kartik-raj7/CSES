@@ -1,0 +1,1 @@
+{"name":"Local: towers","url":"c:\\Users\\karti\\Desktop\\CSES\\towers.cpp","tests":[{"id":1657957333915,"input":"5\n3 8 2 1 5","output":"2"},{"id":1657958262189,"input":"9\n3 4 2 1 5 3 4 3 2","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\CSES\\towers.cpp","group":"local","local":true}
