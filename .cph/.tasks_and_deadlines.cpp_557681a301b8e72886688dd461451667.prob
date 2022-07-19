@@ -1,0 +1,1 @@
+{"name":"Local: tasks_and_deadlines","url":"c:\\Users\\karti\\Desktop\\CSES\\tasks_and_deadlines.cpp","tests":[{"id":1658234655956,"input":"3\n6 10\n8 15\n5 12\n","output":"2"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\CSES\\tasks_and_deadlines.cpp","group":"local","local":true}
