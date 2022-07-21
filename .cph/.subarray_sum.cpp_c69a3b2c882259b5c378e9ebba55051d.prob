@@ -1,0 +1,1 @@
+{"name":"Local: subarray_sum","url":"c:\\Users\\karti\\Desktop\\CSES\\subarray_sum.cpp","tests":[{"id":1658396971680,"input":"5 7 \n2 4 1 2 7","output":"3"},{"id":1658398631704,"input":"5 1\n1 1 1 1 1","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\Users\\karti\\Desktop\\CSES\\subarray_sum.cpp","group":"local","local":true}
