@@ -33,33 +33,35 @@ int main(){
     cin>>arr[i];
     mp[arr[i]]=false;
    }
+   int counter = n;
    sort(arr,arr+n);
-   int c=0;
-   int i=0,j=n-1;int k=0;
-   while(i<=j){
-      if(arr[i]+arr[j]>wt){
-       mp[j]= false;
-       mp[i]=false;
-       j--;
-       }
-      else{
-        c++;
-        mp[arr[i]]=mp[arr[j]]=true;
-        i++;
-        j--; 
+   int i = 0,j=n-1;
+   while(i<j){
+      if(arr[i]+arr[j]<=wt){
+         counter--;
+         i++;
+         j--;
       }
+      else j--;
    }
-//    cout<<c<<endl;
-   for(int i=0;i<n;i++){
-    if(!mp[arr[i]])c++;
-   }
-   cout<<c<<endl;
-//    for(int i=0;i<n;i++){
-//     if(mp.find(wt-arr[i])!=mp.end()&&mp[wt-arr[i]]>0){
-//         mp[wt-arr[i]]--;
-//         mp[arr[i]]--;
-//         c++;
-//     }
-//    }
-//    cout<<c<<endl;
+   cout<<counter<<endl;
 }
+   // int c=0;
+   // int i=0,j=n-1;int k=0;
+   // while(i<=j){
+   //    if(arr[i]+arr[j]>wt){
+   //     mp[j]= false;
+   //     mp[i]=false;
+   //     j--;
+   //     }
+   //    else{
+   //      c++;
+   //      mp[arr[i]]=mp[arr[j]]=true;
+   //      i++;
+   //      j--; 
+   //    }
+   // }
+   // for(int i=0;i<n;i++){
+   //  if(!mp[arr[i]])c++;
+   // }
+   // cout<<c<<endl;

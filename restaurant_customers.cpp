@@ -35,21 +35,35 @@ int n;
 cin>>n;
 vector<pair<int,int>>mp;
 for(int i=0;i<n;i++){
-    int x,y;
-    cin>>x>>y;
-    mp.push_back({x,y});
+    int a,b;
+    cin>>a>>b;
+    mp.pb({a,1});
+    mp.pb({b,-1});
 }
-sort(mp.begin(),mp.end(),compare);
-// for(auto i:mp){
-//     cout<<i.first<<" "<<i.second<<endl;
+ll ans = 0,sum = 0;
+sort(mp.begin(),mp.end());
+for(auto i:mp){
+   sum+=i.second;
+   ans = max(ans,sum);
+}
+cout<<ans<<endl;
+}
+// for(int i=0;i<n;i++){
+//     int x,y;
+//     cin>>x>>y;
+//     mp.push_back({x,y});
 // }
-int c=0,maxi=0;
-for(int i=0;i<n-1;i++){
-    if(mp[i].second>mp[i+1].first&&mp[i].second<mp[i+1].second){
-        c++;
-        maxi=max(maxi,c);
-    }
-    else c=0;
-}
-cout<<maxi+1<<endl;
-}
+// sort(mp.begin(),mp.end(),compare);
+// // for(auto i:mp){
+// //     cout<<i.first<<" "<<i.second<<endl;
+// // }
+// int c=0,maxi=0;
+// for(int i=0;i<n-1;i++){
+//     if(mp[i].second>mp[i+1].first&&mp[i].second<mp[i+1].second){
+//         c++;
+//         maxi=max(maxi,c);
+//     }
+//     else c=0;
+// }
+// cout<<maxi+1<<endl;
+// }
